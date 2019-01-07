@@ -5,7 +5,8 @@ strapi-nuxt-apollo-graphql
 install latest version of strapi 
 https://github.com/strapi/strapi
 
-strapi new backend (or other projectname as backend)
+$strapi new backend 
+(or other projectname as backend)
 > choose mongodb
 
 install graphql plugin
@@ -17,11 +18,13 @@ from folder 'strapi files' copy folder 'api'
 from folder 'strapi files' copy  'plugins/users-permissions/models/'
 overwrite your current plugins/users-permissions/models folder 
 
-strapi start
+$strapi start
 
 # nuxt
 > within frontend folder 
 
-npm install 
+$npm install 
 
-npm run dev
+$npm run dev
+
+(or yarn)
