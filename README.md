@@ -14,6 +14,7 @@ https://www.npmjs.com/package/strapi-plugin-graphql
 copy folder 'strapi files' to your strapi projectname
 
 # nuxt
-within frontend folder npm install 
+> within frontend folder 
+npm install 
 
 npm run dev
