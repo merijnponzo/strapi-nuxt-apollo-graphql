@@ -15,6 +15,7 @@ copy folder 'strapi files' to your strapi projectname
 
 # nuxt
 > within frontend folder 
+
 npm install 
 
 npm run dev
