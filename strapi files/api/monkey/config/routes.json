@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monkeys",
+      "handler": "Monkey.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monkeys/count",
+      "handler": "Monkey.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monkeys/:_id",
+      "handler": "Monkey.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monkeys",
+      "handler": "Monkey.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monkeys/:_id",
+      "handler": "Monkey.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monkeys/:_id",
+      "handler": "Monkey.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

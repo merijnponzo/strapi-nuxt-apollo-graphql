@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "monkey",
+  "info": {
+    "name": "monkey",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "dadsweight": {
+      "default": "",
+      "type": "float"
+    },
+    "gender": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "name": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
