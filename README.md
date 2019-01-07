@@ -11,7 +11,15 @@ strapi new backend (or other projectname as backend)
 install graphql plugin
 https://www.npmjs.com/package/strapi-plugin-graphql
 
-copy folder 'strapi files' to your strapi projectname
+from folder 'strapi files' copy
+> api
+overwrite your current api folder within projectname
+
+from folder 'strapi files' copy
+> plugins/users-permissions/models/
+overwrite your current plugins/users-permissions/models folder 
+
+strapi start
 
 # nuxt
 > within frontend folder 
